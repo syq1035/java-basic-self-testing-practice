@@ -15,7 +15,6 @@ class ArrayTest {
         for (int i = 0; i < itemsCount; ++i) {
             myStack.push(i);
         }
-
         int[] array = myStack.popToArray();
 
         assertArrayEquals(
